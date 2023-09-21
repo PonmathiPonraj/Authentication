@@ -61,6 +61,7 @@ const AuthForm = () => {
       }).catch(err=>{
         alert(err.Message);
       })
+      authCtx.logout();
   };
 
   return (
